@@ -22,14 +22,14 @@ baseurl: ""
 # baseurl: ""
 
 # google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/end2end
-disqus_shortname: "that_cannon_guy"
-disqus_site_shortname: "that_cannon_guy"
+repo: http://github.com/cannon10100/cannon10100.github.io
+disqus_shortname: "cannonlewis"
+disqus_site_shortname: "thatcannonguy"
 
 # Author settings
 author:
   name      : (William) Cannon Lewis (II)
-  job       : Student
+  job       : reader and developer
   bio       : "Fan of artificial intelligence, mathematics, reading, running, and laughing. I read my email"
   thumb     : /images/author.jpg
   email     : cannon10100@gmail.com
