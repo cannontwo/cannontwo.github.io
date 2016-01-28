@@ -8,7 +8,7 @@ require "jekyll"
 GITHUB_REPONAME    = "cannon10100/cannon10100.github.io"
 GITHUB_REPO_BRANCH = "master"
 
-SOURCE = "source/"
+SOURCE = "./"
 DEST   = "_site"
 CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
@@ -23,7 +23,7 @@ task default: %w[publish]
 desc "Generate blog files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
-    "source"      => "source/",
+    "source"      => "./",
     "destination" => "_site",
     "config"      => "_config.yml"
   })).process
