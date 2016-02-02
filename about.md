@@ -6,7 +6,7 @@ permalink: /about/
 
 #### Personal Details
 
-Sophomore at Rice University majoring in **Computer Science** and **Mathematics**. World traveler, born in Houston, Texas. Fan of reading, running, writing, learning. I read my [email](mailto:cannon10100@gmail.com).
+Sophomore at Rice University majoring in **Computer Science** and **Mathematics**. [Theater Critic for the Rice Thresher](http://www.ricethresher.org/staff/cannon-lewis). World traveler, born in Houston, Texas. Fan of reading, running, writing, learning. I read my [email](mailto:cannon10100@gmail.com).
 
 #### Research Interests
 
