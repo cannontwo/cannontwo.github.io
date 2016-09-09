@@ -6,8 +6,8 @@ function drawChart() {
   data.addColumn('date', 'Month (MMYYYY)');
   data.addColumn('number', 'Books bought');
   data.addColumn('number', 'Books read');
-  data.addColumn({type: 'string', role: 'annotation'})
-  data.addColumn({type: 'string', role: 'annotationText'})
+  data.addColumn({type: 'string', role: 'annotation'});
+  data.addColumn({type: 'string', role: 'annotationText'});
 
   // Add book reading data here.
   data.addRows([
