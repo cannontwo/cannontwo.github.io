@@ -6,7 +6,7 @@ permalink: /about/
 
 #### Personal Details
 
-Sophomore at Rice University majoring in **Computer Science** and **Mathematics**. [Theater Critic for the Rice Thresher](http://www.ricethresher.org/staff/cannon-lewis). World traveler, born in Houston, Texas. Fan of reading, running, writing, learning. I read my [email](mailto:cannon10100@gmail.com).
+Junior at Rice University majoring in **Computer Science** and **Mathematics**. [Theater Critic for the Rice Thresher](http://www.ricethresher.org/staff/cannon-lewis). World traveler, born in Houston, Texas. Fan of reading, running, writing, learning. I read my [email](mailto:cannon10100@gmail.com).
 
 #### Research Interests
 
@@ -18,10 +18,10 @@ There is always [more](http://arxiv.org/) to know.
 
 #### Motivations
 
-I am motivated by the works of [Marvin Minsky](http://web.media.mit.edu/~minsky/), [John McCarthy](http://www-formal.stanford.edu/jmc/), [Donald Knuth](http://www-cs-faculty.stanford.edu/~uno/), and the writings of [Isaac Asimov](http://www.asimovonline.com/asimov_home_page.html). 
+I am motivated by the works of [Marvin Minsky](http://web.media.mit.edu/~minsky/), [John McCarthy](http://www-formal.stanford.edu/jmc/), [Donald Knuth](http://www-cs-faculty.stanford.edu/~uno/), and the writings of [Isaac Asimov](http://www.asimovonline.com/asimov_home_page.html).
 
 I draw inspiration from the fields of Psychology, Sociology, Cognitive Science, Information Theory, Mathematics, and Statistics.
 
 #### Contribution
 
-Have something you think I should read? [Shoot me a link](mailto:cannon10100@gmail.com)! I'll read it and write back with my thoughts, and I may even write a post about it. 
+Have something you think I should read? [Shoot me a link](mailto:cannon10100@gmail.com)! I'll read it and write back with my thoughts, and I may even write a post about it.

@@ -17,7 +17,8 @@ function drawChart() {
     chart: {
       title: 'Reading Burndown Chart',
       subtitle: 'Sometimes I buy too many books'
-    }
+    },
+    height: 300
   };
 
   var chart = new google.charts.Line(document.getElementById('chart_div'));
