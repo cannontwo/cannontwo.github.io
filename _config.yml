@@ -43,7 +43,7 @@ author:
 navbar:
   - slug: about
     title: About
-  - slug: assets/resume.pdf
+  - slug: assets/resume
     title: Resume
   # - slug: skills
   #   title: Skills
