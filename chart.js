@@ -11,12 +11,12 @@ function drawChart() {
 
   // Add book reading data here.
   data.addRows([
+    [072016, 0, 0, '', 'Start!'],
     [082016, 19, 1, '', 'Read: The Three Stigmata of Palmer Eldritch']
   ]);
 
   var options = {
     chart: {
-      title: 'Reading Burndown Chart',
       subtitle: 'Sometimes I buy too many books'
     },
     height: 300
