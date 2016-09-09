@@ -3,14 +3,15 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
   var data = new google.visualization.DataTable();
-  data.addColumn('number', 'X');
-  data.addColumn('number', 'added');
-  data.addColumn('number', 'removed');
+  data.addColumn('number', 'Month (MMYYYY)');
+  data.addColumn('number', 'Books bought');
+  data.addColumn('number', 'Books read');
+  data.addColumn({type: 'string', role: 'annotation'})
+  data.addColumn({type: 'string', role: 'annotationText'})
 
+  // Add book reading data here.
   data.addRows([
-    [0, 5, 2],
-    [1, 2, 4],
-    [3, 4, 5]
+    [082016, 19, 1, '', 'Read: The Three Stigmata of Palmer Eldritch']
   ]);
 
   var options = {
