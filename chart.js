@@ -11,8 +11,8 @@ function drawChart() {
 
   // Add book reading data here.
   data.addRows([
-    [new Date(2016, 7), 0, 0, '', 'Start!'],
-    [new Date(2016, 8), 19, 1, '', 'Read: The Three Stigmata of Palmer Eldritch']
+    [new Date(2016, 7), 0, 0, '0', 'Start!'],
+    [new Date(2016, 8), 19, 1, '1', 'Read: The Three Stigmata of Palmer Eldritch']
   ]);
 
   var options = {
