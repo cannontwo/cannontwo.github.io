@@ -22,7 +22,8 @@ function drawChart() {
     hAxis: {
       format: 'MMYYYY'
     },
-    height: 300
+    height: 300,
+    color: ['#4CAF50', '#F44336']
   };
 
   var chart = new google.charts.Line(document.getElementById('chart_div'));
