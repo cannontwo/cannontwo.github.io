@@ -23,7 +23,7 @@ function drawChart() {
       format: 'MMYYYY'
     },
     height: 300,
-    color: ['#4CAF50', '#F44336']
+    colors: ['#4CAF50', '#F44336']
   };
 
   var chart = new google.charts.Line(document.getElementById('chart_div'));
