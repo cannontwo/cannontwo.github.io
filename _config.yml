@@ -47,6 +47,8 @@ navbar:
     title: Resume
   # - slug: skills
   #   title: Skills
+  - slug: chart
+    title: Chart
   - slug: blog
     title: Blog
 
