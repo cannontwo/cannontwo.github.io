@@ -4,7 +4,7 @@ html, body {
 
 body {
     background-color: #002b36;
-    color: #839496;
+    color: 	#586e75;
     margin: 0 auto;
     font-family: Roboto, sans-serif;
 }
@@ -23,6 +23,7 @@ body {
     padding: 0 0 0 2%;
     clear: both;
     font-family: Raleway, sans-serif;
+    font-size: 20px;
 }
 
 .nav-item:hover {
@@ -31,18 +32,30 @@ body {
 
 .main-wrapper {
     width: 720px;
+    padding: 10px;
 }
 
 .header {
-    padding: 7% 0 0 7%;
+    padding: 20px 0 20px 10px;
     font-size: 75px;
     font-weight: 700;
+    font-family: Volkhov, serif;
 }
 
 .body-text {
-    padding: 0 0 0 10%;
-    font-size: 24px;
+    padding: 0 0 0 40px;
+    font-size: 20px;
     font-weight: 400;
+    color: #93a1a1;
+}
+
+.body-text h2 {
+    color: 	#b58900;
+}
+
+footer, .push {
+    height: 4em;
+    text-align: center;
 }
 
 @media (max-width: 720px) and (min-width: 500px) {
@@ -50,12 +63,17 @@ body {
         width: 500px;
     }
 
-    .heading {
+    .header {
         font-size: 48px;
+        padding: 15px 0 15px 10px;
     }
 
     .body-text {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .nav-item {
+        font-size: 18px;
     }
 }
 
@@ -64,11 +82,16 @@ body {
         width: auto;
     }
 
-    .heading {
+    .header {
         font-size: 36px;
+        padding: 10px 0 10px 10px;
     }
 
     .body-text {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .nav-item {
+        font-size: 15px;
     }
 }
