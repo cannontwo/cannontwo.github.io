@@ -24,6 +24,7 @@ body {
     clear: both;
     font-family: Raleway, sans-serif;
     font-size: 20px;
+    font-weight: 700;
 }
 
 .nav-item:hover {
