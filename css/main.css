@@ -112,11 +112,14 @@ footer, .push {
 
 /* Just for fun */
 
-dancing-box:hover {
+dancing-box {
     width: 100px;
     height: 100px;
     background-color: red;
     position: relative;
+}
+
+dancing-box:hover {
     animation-name: example;
     animation-duration: 4s;
 }
