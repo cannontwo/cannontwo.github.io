@@ -6,6 +6,7 @@ body {
     background-color: #002b36;
     color: #839496;
     margin: 0 auto;
+    font-family: Roboto, sans-serif;
 }
 
 .nav-bar {
@@ -21,16 +22,53 @@ body {
     text-decoration: none;
     padding: 0 0 0 2%;
     clear: both;
+    font-family: Raleway, sans-serif;
 }
 
 .nav-item:hover {
     color: #2aa198;
 }
 
+.main-wrapper {
+    width: 720px;
+}
+
 .header {
     padding: 7% 0 0 7%;
+    font-size: 75px;
+    font-weight: 700;
 }
 
 .body-text {
     padding: 0 0 0 10%;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@media (max-width: 720px) and (min-width: 500px) {
+    .main-wrapper {
+        width: 500px;
+    }
+
+    .heading {
+        font-size: 48px;
+    }
+
+    .body-text {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 499px) {
+    .main-wrapper {
+        width: auto;
+    }
+
+    .heading {
+        font-size: 36px;
+    }
+
+    .body-text {
+        font-size: 24px;
+    }
 }
