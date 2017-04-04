@@ -87,7 +87,7 @@ footer, .push {
     text-align: center;
 }
 
-@media (max-width: 720px) and (min-width: 560px) {
+@media (max-width: 800px) and (min-width: 600px) {
     .main-wrapper {
         width: 500px;
         padding-top: 55px;
@@ -107,7 +107,7 @@ footer, .push {
     }
 }
 
-@media (max-width: 559px) {
+@media (max-width: 599px) {
     .main-wrapper {
         width: auto;
         padding-top: 60px;
