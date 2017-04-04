@@ -41,6 +41,10 @@ body {
     padding: 0 0 0 20px;
 }
 
+.nav-icon:hover {
+    color: #2aa198;
+}
+
 .nav-item:hover {
     color: #2aa198;
 }
