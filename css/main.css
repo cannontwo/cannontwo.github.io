@@ -51,7 +51,7 @@ body {
 
 .main-wrapper {
     width: 720px;
-    padding: 40px 40px 20px 40px;
+    padding: 50px 40px 20px 40px;
 }
 
 .header {
@@ -80,7 +80,7 @@ footer, .push {
 @media (max-width: 720px) and (min-width: 500px) {
     .main-wrapper {
         width: 500px;
-        padding-top: 45px;
+        padding-top: 55px;
     }
 
     .header {
@@ -100,7 +100,7 @@ footer, .push {
 @media (max-width: 499px) {
     .main-wrapper {
         width: auto;
-        padding-top: 50px;
+        padding-top: 60px;
     }
 
     .header {
