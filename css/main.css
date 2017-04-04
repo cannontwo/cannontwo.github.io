@@ -15,6 +15,7 @@ body {
     padding: 15px 2% 15px 0;
     height: 20px;
     border-bottom: solid thick #586e75;
+    position: fixed;
 }
 
 .nav-items {
@@ -46,7 +47,7 @@ body {
 
 .main-wrapper {
     width: 720px;
-    padding: 20px 40px;
+    padding: 40px 40px 20px 40px;
 }
 
 .header {
@@ -75,6 +76,7 @@ footer, .push {
 @media (max-width: 720px) and (min-width: 500px) {
     .main-wrapper {
         width: 500px;
+        padding-top: 45px;
     }
 
     .header {
@@ -94,6 +96,7 @@ footer, .push {
 @media (max-width: 499px) {
     .main-wrapper {
         width: auto;
+        padding-top: 50px;
     }
 
     .header {
@@ -108,29 +111,4 @@ footer, .push {
     .nav-item {
         font-size: 15px;
     }
-}
-
-/* Just for fun */
-
-.dancing-box {
-    width: 100px;
-    height: 100px;
-    margin-left: 50px;
-    background-color: red;
-    position: relative;
-}
-
-.dancing-box:active {
-    animation-name: example;
-    animation-duration: 4s;
-}
-
-
-/* Standard syntax */
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
 }
