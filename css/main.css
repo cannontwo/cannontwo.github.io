@@ -79,6 +79,7 @@ body {
 
 .body-text h2 {
     color: 	#b58900;
+    margin-bottom: 0;
 }
 
 footer, .push {
