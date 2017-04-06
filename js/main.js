@@ -14,8 +14,8 @@ ga('send', 'pageview');
 
 // End Google Analytics code
 
-$(document).ready(function() {
-    $("#rrt").hover(function() {
-        alert("Clicked");
-    });
-});
+//$(document).ready(function() {
+//    $("#rrt").hover(function() {
+//        alert("Clicked");
+//    });
+//});
