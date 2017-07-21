@@ -99,15 +99,15 @@ footer, .push {
     }
 
     .body-text {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .nav-item {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 599px) and (min-width: 525px) {
     .main-wrapper {
         width: auto;
         padding-top: 60px;
@@ -119,10 +119,31 @@ footer, .push {
     }
 
     .body-text {
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .nav-item {
-        font-size: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 524px) {
+    .main-wrapper {
+        width: auto;
+        padding-top: 60px;
+    }
+
+    .header {
+        font-size: 36px;
+        padding: 10px 0 10px 10px;
+    }
+
+    .body-text {
+        font-size: 13px;
+    }
+
+    .nav-item {
+        font-size: 11px;
+        padding-left: 5px;
     }
 }
