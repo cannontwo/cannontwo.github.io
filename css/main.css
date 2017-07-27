@@ -51,6 +51,7 @@ body {
 .main-wrapper {
     width: 720px;
     padding: 50px 40px 20px 80px;
+    margin: auto;
 }
 
 .header {
@@ -85,6 +86,14 @@ body {
 footer, .push {
     height: 4em;
     text-align: center;
+}
+
+#bad-idea {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 100px;
+    font-size: 24px;
 }
 
 @media (max-width: 800px) and (min-width: 600px) {

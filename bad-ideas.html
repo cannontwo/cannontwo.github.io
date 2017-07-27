@@ -10,7 +10,7 @@
         <script src="js/main.js"></script>
     </head>
 
-    <body>
+    <body onload="getBadIdea()">
         <div class="nav-bar">
             <div class="nav-icons">
             <a class="fa fa-github nav-icon" aria-hidden="true" href="https://github.com/cannon10100" target="_blank"></a>
@@ -20,7 +20,7 @@
             <div class="nav-items">
             <a class="nav-item" href="index.html">That Cannon Guy</a>
             <a class="nav-item" href="resume.html" target="_blank">Resume</a>
-            <a class="nav-item" href="presentations.html" target="_blank">Presentations</a>
+            <a class="nav-item" href="materials.html">Materials</a>
             <a class="nav-item" href="bad-ideas.html">Bad Ideas</a>
             </div>
         </div>
@@ -28,7 +28,10 @@
         <div class="main-wrapper">
             <div class="header">Bad Ideas</div>
             <div class="body-text">
-
+				<p style="color: #b58900;">
+					Every once in a while I have an idea that just isn't worth pursuing at the time. The ideas displayed below are provided without any sort of guarantee or assurance of quality. Most of them have probably been done before or aren't worth doing in the first place. Nonetheless, if one piques your interest, I'd love to hear about your efforts. 
+				</p>
+				<div id="bad-idea"></div>
             </div>
         </div>
         <div class="push"></div>
@@ -36,4 +39,20 @@
     <footer>
         &copy Cannon Lewis
     </footer>
+
+    <script>
+    function getBadIdea() {
+	  var xhttp = new XMLHttpRequest();
+
+	  xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+		  document.getElementById("bad-idea").innerHTML =
+		  this.responseText;
+		}
+	  };
+
+	  xhttp.open("GET", "http://54.227.194.194:4444", true);
+	  xhttp.send();
+    }
+    </script>
 </html>
