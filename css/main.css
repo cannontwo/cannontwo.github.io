@@ -13,25 +13,27 @@ body {
     background-color: #073642;
     width: 98%;
     padding: 15px 2% 15px 0;
-    height: 20px;
     border-bottom: solid thick #586e75;
     position: fixed;
 }
 
 .nav-items {
-    float: right;
+    width: auto;
+    text-align: right;
 }
 
 .nav-item {
     color: #268bd2;
     text-decoration: none;
-    padding: 0 0 0 20px;
     font-family: Raleway, sans-serif;
     font-size: 18px;
+    width: 20%;
+    margin-left: 3%;
 }
 
 .nav-icons {
     float: left;
+    width: 150px;
 }
 
 .nav-icon {
@@ -55,14 +57,13 @@ body {
 }
 
 .header {
-    padding: 20px 0 20px 10px;
+    padding: 5% 0;
     font-size: 60px;
     font-weight: 700;
     font-family: Volkhov, serif;
 }
 
 .body-text {
-    padding: 0 0 0 40px;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.5px;
@@ -103,15 +104,11 @@ footer, .push {
 
     .header {
         font-size: 48px;
-        padding: 15px 0 15px 10px;
+        padding: 15px 0 15px 0px;
     }
 
     .body-text {
         font-size: 14px;
-    }
-
-    .nav-item {
-        font-size: 16px;
     }
 }
 
@@ -123,15 +120,11 @@ footer, .push {
 
     .header {
         font-size: 36px;
-        padding: 10px 0 10px 10px;
+        padding: 10px 0 10px 0px;
     }
 
     .body-text {
         font-size: 13px;
-    }
-
-    .nav-item {
-        font-size: 14px;
     }
 }
 
@@ -143,15 +136,72 @@ footer, .push {
 
     .header {
         font-size: 36px;
-        padding: 10px 0 10px 10px;
+        padding: 10px 0 10px 0px;
     }
 
     .body-text {
         font-size: 13px;
     }
+}
+
+@media (max-width: 650px) {
+    .nav-item {
+        margin: auto;
+        font-size: 16px;
+        padding: 0 1%;
+    }
+
+    .nav-items {
+        text-align: center;
+        padding: 2% 0%;
+        border-top: solid thick #586e75;
+    }
+
+    .nav-icons {
+        width: 100%;
+        text-align: center;
+        float: none;
+        padding: 2% 0%;
+    }
+
+    .nav-icon {
+        padding: 0 1%;
+    }
+
+    .nav-bar {
+        margin: auto;
+        padding: 0%;
+        width: 100%;
+    }
+
+    .header {
+       padding-top: 15%; 
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-item {
+        width: 100%;
+        border-top: solid thick #586e75;
+        display: block;
+    }
+
+    .nav-items {
+        border-top: none;
+        padding: 0;
+    }
 
     .nav-item {
-        font-size: 11px;
-        padding-left: 5px;
+        padding: 2% 0;
+    }
+
+    .header {
+        padding-top: 65%;
+    }
+}
+
+@media (max-width: 325px) {
+    .header {
+        padding-top: 80%;
     }
 }
