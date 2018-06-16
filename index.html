@@ -1,104 +1,115 @@
-<!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="author" content="Cannon Lewis" />
-        <title>That Cannon Guy</title>
-        <link rel="canonical" href="http://cannontwo.com"/>
-        <link rel="shortcut icon" type="image/png" href="favicon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/main.css" type="text/css" />
-	    <meta property="og:site_name" content="That Cannon Guy"/>
-        <meta property="og:title" content="That Cannon Guy"/>
-        <meta property="og:url" content="http://cannontwo.com"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:description" content="Cannon Lewis: Reading, Writing, Running, Learning. AI mostly."/>
-        <meta property="og:image" content="http://cannontwo.com/assets/face.jpg"/>
-        <meta itemprop="name" content="That Cannon Guy"/>
-        <meta itemprop="url" content="http://cannontwo.com"/>
-        <meta itemprop="description" content="Cannon Lewis: Reading, Writing, Running, Learning. AI mostly."/>
-        <meta itemprop="thumbnailUrl" content="http://cannontwo.com/assets/face.jpg"/>
-        <meta itemprop="image" content="http://cannontwo.com/assets/face.jpg"/>
-        <meta name="twitter:title" content="That Cannon Guy"/>
-        <meta name="twitter:image" content="http://cannontwo.com/assets/face.jpg"/>
-        <meta name="twitter:url" content="http://cannontwo.com"/>
-        <meta name="twitter:card" content="summary"/>
-        <meta name="twitter:description" content="Cannon Lewis: Reading, Writing, Running, Learning. AI mostly."/>
-        <meta name="description" content="Cannon Lewis: Reading, Writing, Running, Learning. AI mostly." />
-        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto|Volkhov" rel="stylesheet">
-        <script src="https://use.fontawesome.com/59d306ead9.js"></script>
-        <script src="js/jquery-3.2.0.min.js"></script>
-        <script src="js/main.js"></script>
-    </head>
+---
+layout: default
+---
 
-    <body>
-        <div class="nav-bar">
-            <div class="nav-icons">
-            <a class="fa fa-github nav-icon" aria-hidden="true" href="https://github.com/cannontwo" target="_blank"></a>
-            <a class="fa fa-twitter nav-icon" aria-hidden="true" href="http://twitter.com/cannonlewisii" target="_blank"></a>
-            <a class="fa fa-linkedin nav-icon" aria-hidden="true" href="https://www.linkedin.com/in/cannonlewis2" target="_blank"></a>
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-2 offset-md-1 d-md-inline d-sm-none d-none text-right" id="sidebar">
+            <b>info</b>
+            <br/>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#top">Home</a>
+            <br/>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#interests">Interests</a>
+            <br/>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#news">News</a>
+            <br/>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#publications">Publications</a>
+            <br/>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#teaching">Teaching</a>
+            <br/>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#activities">Activities</a>
+            <br/>
+            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#awards">Awards</a>
+
+            <br/>
+            <br/>
+
+            <b>social</b>
+            <br/>
+            <a class="sidebar-nav-item" target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
+                Twitter <i class="fab fa-twitter fa-1x"></i>
+            </a>
+            <br/>
+            <a class="sidebar-nav-item" target="_blank" href="https://github.com/{{ site.github_username }}">
+                Github <i class="fab fa-github fa-1x"></i>
+            </a>
+            <br/>
+            <a class="sidebar-nav-item" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                LinkedIn <i class="fab fa-linkedin fa-1x"></i>
+            </a>
+            <br/>
+            <a class="sidebar-nav-item" href="mailto:{{ site.email }}">
+                Email <i class="fa fa-envelope fa-1x"></i>
+            </a>
+
+            <br/>
+            <br/>
+
+            <b>clickouts</b>
+            <br/>
+            <a class="sidebar-nav-item" target="_blank" href="{{ site.baseurl }}/assets/resume.pdf">Resume/CV</a>
+            <br/>
+            <a class="sidebar-nav-item" target="_blank" href="http://www.kavrakilab.org/">Lab</a>
+            <br/>
+            <a class="sidebar-nav-item" target="_blank" href="https://www.youtube.com/channel/UCVU0trj85bYbsgOyPmUdvHQ">Youtube</a>
+
+
+        </div>
+        <div class="col-md-8 col-lg-8 text-justify content">
+            <div class="row">
+                <div class="col-lg-5" id="headshot">
+                    <img class="img-fluid" alt="Professional-ish photo of Cannon" src="assets/img/headshot.jpg">
+                </div> 
+                <div class="col-lg-7" id="main-header">
+                    <h2>
+                        W. Cannon Lewis II
+                    </h2>
+                    <h3>
+                        <small class="text-muted">First year Rice CS PhD student</small>
+                    </h3>
+                    <br/>
+                    <h4 id="interests" class="text-primary">Research Interests</h4>
+                    <p>
+                    Generally speaking, I am interested in robotic autonomy. This
+                    field takes many forms, from classical control to modern machine
+                    learning. At the end of the day, I am fascinated by
+                    complex problems that are dangerous or tedious for humans to solve.
+                    My research incorporates aspects of control theory, statistics,
+                    optimization, formal mathematics, and good old search and planning.
+                </div>
             </div>
-            <div class="nav-items">
-            <a class="nav-item" href="index.html">That Cannon Guy</a>
-            <a class="nav-item" href="resume.html" target="_blank">Resume</a>
-            <a class="nav-item" href="materials.html">Materials</a>
-            <a class="nav-item" href="professional-activities.html">Activities</a>
+            <hr>
+            <div class="row">
+                <div class="col text-justify content">
+                    <!-- News -->
+                    <h4 id="news" class="text-primary">News</h4>
+                    <ul>
+                        <li>Test 1</li>
+                        <li>Test 2</li>
+                    </ul>
+                    <br/>
+
+                    <!-- Publications -->
+                    <h4 id="publications" class="text-primary">Publications</h4>
+                    <p>Insert news here</p>
+                    <br/>
+
+                    <!-- Teaching -->
+                    <h4 id="teaching" class="text-primary">Teaching</h4>
+                    <p>Insert news here</p>
+                    <br/>
+
+                    <!-- Activities -->
+                    <h4 id="activities" class="text-primary">Activities</h4>
+                    <p>Insert news here</p>
+                    <br/>
+
+                    <!-- Awards -->
+                    <h4 id="awards" class="text-primary">Awards</h4>
+                    <p>Insert news here</p>
+                    <br/>
+                </div>
             </div>
         </div>
-
-        <div class="main-wrapper">
-
-            <div class="header">That Cannon Guy</div>
-
-            <table>
-                <tr>
-                    <td>
-                        <div class="img-container">
-                            <img src="assets/face.jpg">
-                        </div>
-                    </td>
-                    <td>
-                        <div class="body-text">
-                            <h2>Personal</h2>
-                            <p>
-                            Senior at Rice University majoring in <b>Computer Science and Mathematics</b>. <a href="http://www.ricethresher.org/staff/cannon-lewis" target="_blank">Theater Critic for the Rice Thresher</a>. World traveler, born in Houston, Texas. Fan of reading, running, writing, learning. I read my <a href="mailto:cannon10100@gmail.com">email</a>.
-                            </p>
-
-                            <h2>Research</h2>
-                            <p>
-                            I am currently planning on pursuing a PhD in <b>Artificial Intelligence</b> once I finish my undergraduate education. To this end, I have spent a significant portion of my time doing independent and directed research. The summer after my freshman year at Rice, I conducted research into the use of different filtering methods in Cryo-Electron Tomography with the <a href="https://www.bcm.edu/research/labs/wah-chiu" target="_blank">Wah Chiu Lab</a> at Baylor College of Medicine under the <b>CPRIT Summer Undergraduate Fellowship</b>. Currently, I am investigating robotic reinforcement learning and dynamic representation generation for Task and Motion Planning as an undergraduate researcher with the <a href="http://www.kavrakilab.org/index.html" target="_blank">Kavraki Lab</a> at Rice University, supported by the <b>Rice Undergraduate Scholars Program</b>. 
-                            </p>
-                            <p>
-                            Broadly speaking, I am interested in <b>Artificial General Intelligence</b>, the development of an intelligent agent that performs well in an arbitrary environment. I am also intrigued by Multi-Agent Systems, the intersection of distributed computing and AI, as I believe that the study of emergent behavior in complex systems can elucidate the formation of human social behavior. Though much of AI research is motivated by human intelligence, in my view true Artificial General Intelligence will not mimic the human example, but rather represent a generalization of the concepts that power human intellect. Such a true AI will likely:
-                           <ul>
-                               <li>Incorporate statistical components in order to deal with the unpredictability of the real world</li>
-                               <li>Make use of powerful symbol manipulation methods from classical search and planning</li>
-                               <li>Need to be robust to simulated and robotic domains</li>
-                           </ul>
-                            As such, these methods and their intersection are currently my area of focus.
-                            </p>
-
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="video-embed video-embed1">
-                            <iframe src="https://www.youtube.com/embed/v3oI9Aynbmc" frameborder="0" allowfullscreen></iframe>
-
-                        </div>
-                    </td>
-                    <td>
-                        <div class="video-embed video-embed2">
-                            <iframe src="https://www.youtube.com/embed/bbzknkQFFto" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="push"></div>
-    </body>
-    <footer>
-        &copy Cannon Lewis
-    </footer>
-</html>
+    </div>
+</div>

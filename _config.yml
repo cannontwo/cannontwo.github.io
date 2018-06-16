@@ -1,0 +1,16 @@
+# Site settings
+title: W. Cannon Lewis II
+email: wcannon@rice.edu
+author: W. Cannon Lewis II
+description: Cannon's personal site.
+url: cannontwo.com
+
+# Build settings
+permalink: :title/
+sass:
+    sass_dir: css
+
+# Social
+github_username: cannontwo
+twitter_username: cannonlewisii
+linkedin_username: cannonlewis2

@@ -1,0 +1,48 @@
+<!-- NAV -->
+<nav class="navbar navbar-expand-md navbar-light d-md-none">
+    <a class="navbar-brand" href="#"><strong>W. Cannon Lewis II</strong></a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="info-dropdown" role="button" data-toggle="dropdown">info</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="{{ site.baseurl }}/#interests">Interests</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/#news">News</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/#publications">Publications</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/#teaching">Teaching</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/#activities">Activities</a>
+                    <a class="dropdown-item" href="{{ site.baseurl }}/#awards">Awards</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="social-dropdown" role="button" data-toggle="dropdown">social</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
+                        <i class="fab fa-twitter fa-1x"></i> Twitter
+                    </a>
+                    <a class="dropdown-item" target="_blank" href="https://github.com/{{ site.github_username }}">
+                        <i class="fab fa-github fa-1x"></i> Github
+                    </a>
+                    <a class="dropdown-item" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                        <i class="fab fa-linkedin fa-1x"></i> LinkedIn
+                    </a>
+                    <a class="dropdown-item" href="mailto:{{ site.email }}">
+                        <i class="fa fa-envelope fa-1x"></i> Email
+                    </a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="clickouts-dropdown" role="button" data-toggle="dropdown">clickouts</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="{{ site.baseurl }}/resume">Resume/CV</a>
+                    <a class="dropdown-item" href="http://www.kavrakilab.org/">Home</a>
+                    <a class="dropdown-item" href="https://www.youtube.com/channel/UCVU0trj85bYbsgOyPmUdvHQ">Youtube</a>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
