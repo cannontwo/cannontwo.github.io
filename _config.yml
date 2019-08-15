@@ -9,6 +9,7 @@ url: cannontwo.com
 permalink: :title/
 sass:
     sass_dir: css
+markdown: kramdown
 
 # Social
 github_username: cannontwo
