@@ -1,5 +1,6 @@
 # Site settings
 title: W. Cannon Lewis II
+name: W. Cannon Lewis II's Blog
 email: wcannon@rice.edu
 author: W. Cannon Lewis II
 description: Cannon's personal site.
@@ -10,6 +11,7 @@ permalink: :title/
 sass:
     sass_dir: css
 markdown: kramdown
+mathjax: true
 
 # Social
 github_username: cannontwo
