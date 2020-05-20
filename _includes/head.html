@@ -31,13 +31,13 @@
     {% if page.title %}
         <meta property="og:title" content="{{ page.title }}"/>
         <meta itemprop="name" content="{{ page.title }}"/>
-        <meta name="twitter:title" content="{{ site.url }}/{{ page.thumbnail }}"/>
+        <meta name="twitter:title" content="{{ page.title }}"/>
     {% endif %}
 
     {% if page.thumbnail %}
-        <meta property="og:image" content="{{ site.url }}/{{ page.thumbnail }}"/>
-        <meta itemprop="image" content="{{ site.url }}/{{ page.thumbnail }}"/>
-        <meta name="twitter:image" content="{{ site.url }}/{{ page.thumbnail }}"/>
+        <meta property="og:image" content="{{ page.thumbnail }}"/>
+        <meta itemprop="image" content="{{ page.thumbnail }}"/>
+        <meta name="twitter:image" content="{{ page.thumbnail }}"/>
     {% endif %}
 
 
