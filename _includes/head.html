@@ -28,6 +28,18 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+    {% if page.title %}
+        <meta property="og:title" content="{{ page.title }}"/>
+        <meta itemprop="name" content="{{ page.title }}"/>
+        <meta name="twitter:title" content="{{ site.url }}/{{ page.thumbnail }}"/>
+    {% endif %}
+
+    {% if page.thumbnail %}
+        <meta property="og:image" content="{{ site.url }}/{{ page.thumbnail }}"/>
+        <meta itemprop="image" content="{{ site.url }}/{{ page.thumbnail }}"/>
+        <meta name="twitter:image" content="{{ site.url }}/{{ page.thumbnail }}"/>
+    {% endif %}
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92742702-3"></script>
