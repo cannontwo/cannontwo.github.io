@@ -63,6 +63,11 @@ layout: default
                     <div id="main-header">
                         <h2>{{ page.title }}</h2>
                     </div>
+                    {% if page.subtitle %}
+                    <div id="main-subheader">
+                      <h5 style="color:gray">{{ page.subtitle }}</h5>
+                    </div>
+                    {% endif %}
                     <hr/>
                     {{ content }}
                     <div class="text-center text-secondary">
