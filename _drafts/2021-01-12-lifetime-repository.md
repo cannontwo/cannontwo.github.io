@@ -4,6 +4,8 @@ title: "The Lifetime Repository"
 subtitle: "Reduce Activation Energy And Experiment Faster"
 ---
 
+#### Summary/TLDR
+
 #### Use Case 1: Research Code
 - Many small projects exploring different ideas
 - Often using similar code
@@ -27,6 +29,7 @@ subtitle: "Reduce Activation Energy And Experiment Faster"
 - Making Incremental Improvements Using Issues
 - The Importance of Testing
 - Extracting Sensitive Code Into Private Submodules
+- Activity Graph From Github
 
 ```c++
 int main() {
@@ -34,3 +37,5 @@ int main() {
   log_info("Hello");
 }
 ```
+
+$$x = \int_0^\infty y e^{2\pi}$$
