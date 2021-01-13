@@ -1,6 +1,11 @@
 ---
 ---
+pre {
+ padding:12px 32px;
+ overflow-x:auto
+}
 
 @import 'bootstrap/bootstrap';
 @import 'custom/includes/header';
 
+@import 'friendly.css';

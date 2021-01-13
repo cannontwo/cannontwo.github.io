@@ -12,6 +12,13 @@ sass:
     sass_dir: css
 markdown: kramdown
 mathjax: true
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'highlight'
 
 # Social
 github_username: cannontwo
