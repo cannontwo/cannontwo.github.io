@@ -1,253 +1,38 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="utf-8">
+    <title>W. Cannon Lewis II</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="W. Cannon Lewis II's Personal Website">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.png">
+    <script src="js/main.js"></script>
+  </head>
+ 
+  <body>
+    <h1>W. Cannon Lewis II</h1>
+    <strong id="logline">is a software developer, woodworker, writer, painter, animal caretaker,
+    brother, son, and all-around dude who live in Houston, Texas. </strong>
 
-<div class="container py-4">
-    <div class="row">
-        <div class="col-md-2 offset-md-1 d-md-inline d-sm-none d-none text-right" id="sidebar">
-            <b>info</b>
-            <br/>
-            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#top">Home</a>
-            <br/>
-            <a class="sidebar-nav-item" href="{{ site.baseurl }}/blog">Blog</a>
-            <br/>
-            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#interests">Interests</a>
-            <br/>
-            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#news">News</a>
-            <br/>
-            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#publications">Publications</a>
-            <br/>
-            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#teaching">Teaching</a>
-            <br/>
-            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#activities">Activities</a>
-            <br/>
-            <a class="sidebar-nav-item" href="{{ site.baseurl }}/#awards">Awards</a>
+    <h3>This Site</h3>
+    <p id="construction-notice">is under construction. Please check back later for more info about this
+    cool dude and the stuff he gets up to.</p>
 
-            <br/>
-            <br/>
+    <h3>Some Documents</h3>
+    <ul>
+      <li><a href="assets/resume.pdf">His resume</a></li>
+      <li><a href="assets/rls_notes.pdf">His notes on recursive least squares
+          estimation</a></li>
+      <li><a href="https://doi.org/10.25611/az5z-xt37">A paper he wrote in
+          college</a></li>
+    </ul>
+  </body>
 
-            <b>social</b>
-            <br/>
-            <a class="sidebar-nav-item" target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
-                Twitter <i class="fab fa-twitter fa-1x"></i>
-            </a>
-            <br/>
-            <a class="sidebar-nav-item" target="_blank" href="https://github.com/{{ site.github_username }}">
-                Github <i class="fab fa-github fa-1x"></i>
-            </a>
-            <br/>
-            <a class="sidebar-nav-item" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-                LinkedIn <i class="fab fa-linkedin fa-1x"></i>
-            </a>
-            <br/>
-            <a class="sidebar-nav-item" href="mailto:{{ site.email }}">
-                Email <i class="fa fa-envelope fa-1x"></i>
-            </a>
+  <footer>
+    <small>Made by <a href="https://github.com/cannontwo">Cannon</a>, in the
+      third person</small>
+  </footer>
 
-            <br/>
-            <br/>
-
-            <b>clickouts</b>
-            <br/>
-            <a class="sidebar-nav-item" target="_blank" href="{{ site.baseurl }}/assets/resume.pdf">Resume/CV</a>
-            <br/>
-            <a class="sidebar-nav-item" target="_blank" href="http://www.kavrakilab.org/">Lab</a>
-            <br/>
-            <a class="sidebar-nav-item" target="_blank" href="https://www.youtube.com/channel/UCVU0trj85bYbsgOyPmUdvHQ">Youtube</a>
-
-
-        </div>
-        <div class="col-md-8 col-lg-8 content">
-            <div class="row">
-                <div class="col-lg-6" id="main-header">
-                    <h2>
-                        W. Cannon Lewis II
-                    </h2>
-                    <h3>
-                        <small class="text-muted">Rice CS PhD student</small>
-                    </h3>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6" id="main-header">
-                    <img class="img-fluid rounded float-left" alt="Professional-ish photo of Cannon" src="assets/img/headshot.jpg">
-                </div>
-                <br/>
-                <div class="col-md-6">
-                    <h4 id="interests" class="text-primary">Research Interests</h4>
-                    <p>
-                    Generally speaking, I am interested in robotic autonomy.
-                    My research incorporates aspects of control theory,
-                    statistics, optimization, formal mathematics, and good old
-                    computer science. Right now, my research is specifically in
-                    the application of reinforcement learning to robotic
-                    control and motion planning. Get in touch if you'd like to
-                    know more!
-                    </p>
-
-                    <h4 id="contact" class="text-primary">Contact</h4>
-                    <p>
-                    You can reach me by email at <b>wcannon&lt;at&gt;rice.edu</b> or in my office at <b>3055 Duncan Hall</b>.
-                    </p>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col content">
-                    <!-- News -->
-                    <h4 id="news" class="text-primary">News</h4>
-                    <ul>
-                      <li><strong>9/20/19</strong> - A paper that I wrote in undergrad was published as a Rice University technical report! You can access it <a href="https://scholarship.rice.edu/handle/1911/107403">here</a>.</li>
-                      <li><strong>11/2/18</strong> - I'm excited to finally be able to share that I'm hosting the Rice Computer Science Department podcast, <a href="https://csweb.rice.edu/podcast">Unconventional Computing</a>. Our first episode is about election security! You can find it on <a href="https://itunes.apple.com/us/podcast/unconventional-computing/id1440301552?mt=2">ITunes</a> and <a href="https://play.google.com/music/listen?u=0#/ps/Il2tvpa3v6wn35hqgp32xr2lj5q">Google Play</a>.</li>
-                        <li><strong>06/15/18</strong> - Finally updated the website! Now using Jekyll and Bootstrap, and featuring up-to-date&trade; personal information.</li>
-                    </ul>
-                    <br/>
-
-                    <!-- Publications -->
-                    <h4 id="publications" class="text-primary">Publications</h4>
-                        <dl>
-                            <dt>Papers</dt>
-                            <dd><ol>
-                              <li>Lewis, W. Cannon II, Moll, Mark, and Kavraki, Lydia E. "How Much Do Unstated Problem Constraints Limit Deep Robotic Reinforcement Learning?." (2019) <a href="https://doi.org/10.25611/az5z-xt37">https://doi.org/10.25611/az5z-xt37</a></li>
-                            </ol></dd>
-                            <dt>In Progress</dt>
-                            <dd><ul>
-                                <li><a href="{{ site.baseurl }}/assets/rls_notes.pdf">On Multivariate Recursive Least Squares and Extensions</a></li>
-                                <li><a href="{{ site.baseurl }}/assets/rl_notes.pdf">Reinforcement Learning Lecture Notes (Very Rough)</a></li>
-                            </ul></dd>
-                            <dt>Presentations</dt>
-                            <dd>
-                                <ul>
-                                    <li><a href="{{ site.baseurl }}/assets/rurs_2018_poster.pdf">Rice Undergraduate Research Symposium (RURS) 2018</a></li>
-                                    <li><a href="{{ site.baseurl }}/assets/cannon_rrl.pdf" target="_blank">Two Sigma Demo &amp; Drinks 2017</a></li>
-                                    <li>Houston Robotics Day 2017 (<a href="{{ site.baseurl }}/assets/houston_robotics_day_2017_slides.pdf" target="_blank">Slides</a> / <a href="{{ site.baseurl }}/assets/houston_robotics_day_2017_poster.pdf" target="_blank">Poster</a>): </li>
-                                </ul>
-                            </dd>
-                            <dt>Other</dt>
-                            <dd>My (award-winning) play reviews are partially archived at <a href="http://www.ricethresher.org/staff/cannon-lewis" target="_blank">the Rice Thresher</a></dd>
-                        </dl>
-                    
-                    <br/>
-
-                    <!-- Teaching -->
-                    <h4 id="teaching" class="text-primary">Teaching</h4>
-                    <dl>
-                        <dt>Graduate TAing</dt>
-                        <dd><table class="table">
-                          <tr>
-                            <td>COMP 321</td>
-                            <td>Introduction to Computer Systems</td>
-                          </tr>
-                          <tr>
-                            <td>COMP 450/550</td>
-                            <td>Algorithmic Robotics</td>
-                          </tr>
-                        </table></dd>
-                        <dt>Undergraduate TAing</dt>
-                        <dd><table class="table">
-                            <tr>
-                                <td>COMP 450/550</td>
-                                <td>Algorithmic Robotics</td>
-                            </tr>
-                            <tr>
-                                <td>COMP 311</td>
-                                <td>Functional Programming</td>
-                            </tr>
-                            <tr>
-                                <td>COMP 182</td>
-                                <td>Algorithmic Thinking</td>
-                            </tr>
-                            <tr>
-                                <td>MATH 355</td>
-                                <td>Linear Algebra</td>
-                            </tr>
-                            <tr>
-                                <td>MATH 221/222</td>
-                                <td>Honors Multivariable Calculus III/IV</td>
-                            </tr>
-                        </table></dd>
-                    </dl>
-                    <br/>
-
-                    <!-- Activities -->
-                    <h4 id="activities" class="text-primary">Activities</h4>
-                    <dl>
-                    <dt>Fall 2019</dt>
-                    <dd><ul>
-                      <li><a href="http://machinelearning.rice.edu/ml-lunches/" target="_blank">Rice ML Lunch</a> Coordinator</li>
-                    </ul>
-                    </dd>
-                    <dt>Spring 2019</dt>
-                    <dd><ul>
-                      <li><a href="http://machinelearning.rice.edu/ml-lunches/" target="_blank">Rice ML Lunch</a> Coordinator</li>
-                      <li>Host of Rice University's Computer Science podcast, <a href="https://csweb.rice.edu/podcast">Unconventional Computing</a></li>
-                    </ul>
-                    </dd>
-                    <dt>Fall 2018</dt>
-                    <dd><ul>
-                      <li><a href="http://machinelearning.rice.edu/ml-lunches/" target="_blank">Rice ML Lunch</a> Coordinator</li>
-                      <li><a href="http://gsa.rice.edu/about-gsa/committees/" target="_blank">Rice GSA Media Committe</a> Member</li>
-                      <li>Host of Rice University's Computer Science podcast, <a href="https://csweb.rice.edu/podcast">Unconventional Computing</a></li>
-                    </ul>
-                    </dd>
-                    <dt>Spring 2018</dt> 
-                    <dd><ul>
-                        <li><a href="https://www.houstonchronicle.com/business/columnists/tomlinson/article/Small-on-funding-big-on-dreams-students-love-12810524.php#photo-15347308" target="_blank">Yates High School FIRST Robotics mentor</a></li>
-                    </ul>
-                    </dd>
-                    <dt>Fall 2017</dt>
-                    <dd><ul>
-                        <li><a href="https://ccl.rice.edu/rurs/" target="_blank">Rice Undergraduate Research Symposium</a> Think Tank member</li>
-                        <li>Co-reviewer for <a href="https://icra2018.org/" target="_blank">ICRA 2018</a> with Lydia Kavraki</li>
-                    </ul>
-                    </dd>
-                    <br/>
-
-                    <!-- Awards -->
-                    <h4 id="awards" class="text-primary">Awards</h4>
-                    <table class="table" width="100%">
-                        <tr>
-                            <td><strong>2018</strong></td>
-                            <td><a href="https://k2i.rice.edu/fellowships-and-scholarships" target="_blank">Ken Kennedy Institute Computational Science and Engineering Fellowship</a></td>
-                        </tr>
-                        <tr>
-                            <td><strong>2018</strong></td>
-                            <td><a href="https://www.orau.org/arlfellowship/applicants/programs/journeyman-fellows-summer-program.htm" target="_blank">Army Research Lab Summer Journeyman Fellowship</a></td>
-                        </tr>
-                        <tr>
-                            <td><strong>2018</strong></td>
-                            <td><a href="http://alumni.rice.edu/rea/scholarships" target="_blank">Rice Engineering Alumni Distinguished Research Excellence Award</a></td>
-                        </tr>
-                        <tr>
-                            <td><strong>2018</strong></td>
-                            <td><a href="http://alumni.rice.edu/rea/scholarships" target="_blank">Rice Engineering Alumni Senior Merit Award in Computer Science</a></td>
-                        </tr>
-                        <tr>
-                            <td><strong>2018</strong></td>
-                            <td><a href="https://ccl.rice.edu/rurs/" target="_blank">Rice Undergraduate Research Symposium Excellence in Research Award</a></td>
-                        </tr>
-                        <tr>
-                            <td><strong>2017</strong></td>
-                            <td><a href="https://ccl.rice.edu/faculty/grants/rice-undergraduate-scholars-program/" target="_blank">Rice Undergraduate Scholars Program</a></td>
-                        </tr>
-                        <tr>
-                            <td><strong>2016, 2017</strong></td>
-                            <td>Excellence in Collegiate Journalism - Critical Review</td>
-                        </tr>
-                        <tr>
-                            <td><strong>2015</strong></td>
-                            <td><a href="http://www.gulfcoastconsortia.org/faq-item/cprit-summer-undergraduate-fellowship/" target="_blank">CPRIT Undergraduate Research Fellowship</a></td>
-                        </tr>
-                        <tr>
-                            <td><strong>2014-2018</strong></td>
-                            <td>Rice University President's Honor Roll</td>
-                        </tr>
-                    </table>
-                    <br/>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+</html>
